@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>cc.hamid.alfred-pinboard-rs</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>0087168E-C986-4511-9873-B107C12CD6C0</key>
@@ -1200,6 +1198,8 @@ echo "$ret"</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1346,6 +1346,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1384,7 +1386,7 @@ fi</string>
 			<key>uid</key>
 			<string>A1AB9903-87A7-4041-8EB9-F9E9C06C451B</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1400,6 +1402,8 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1518,15 +1522,27 @@ Check by Chanut is Industries from the Noun Project</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
 				<key>largetypetext</key>
 				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
 			<string>2338607E-BB4F-4C20-B121-B2C3A10C1C6E</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1598,7 +1614,7 @@ Check by Chanut is Industries from the Noun Project</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://pinboard.in/search/u:hamid?query={query}</string>
+				<string>https://pinboard.in/search/u:blissofbeing?query={query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -1656,15 +1672,27 @@ Check by Chanut is Industries from the Noun Project</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
 				<key>largetypetext</key>
 				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
 			<string>71D25BDA-BF77-41BE-B3C6-A7ABE0B3990A</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1692,6 +1720,8 @@ Check by Chanut is Industries from the Noun Project</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1730,7 +1760,7 @@ Check by Chanut is Industries from the Noun Project</string>
 			<key>uid</key>
 			<string>03AF5169-B606-486F-B432-98CF6E2BB0F2</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1792,6 +1822,8 @@ Check by Chanut is Industries from the Noun Project</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1868,6 +1900,8 @@ echo $ret
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1941,6 +1975,8 @@ echo $ret
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1977,7 +2013,7 @@ echo $ret
 			<key>uid</key>
 			<string>5BBD268D-C102-4516-86B3-7A1DA7AE6AD8</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2005,6 +2041,8 @@ echo $ret
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2043,9 +2081,11 @@ echo $ret
 			<key>uid</key>
 			<string>F495558F-7866-454F-B070-80417D1419B6</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -2132,6 +2172,8 @@ echo $ret
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2170,7 +2212,7 @@ echo $ret
 			<key>uid</key>
 			<string>F5143EEF-D67B-4518-A5BA-1DFFD993A314</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2268,6 +2310,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2306,20 +2350,32 @@ fi</string>
 			<key>uid</key>
 			<string>46667F34-E27E-4FBA-83B5-4A55C6FA2FD6</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
 				<key>largetypetext</key>
 				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
 			<string>4411CFFD-1BD6-49B2-8EBB-8AE42CD82ECC</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2341,6 +2397,8 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -2391,6 +2449,8 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -2460,6 +2520,8 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -2470,15 +2532,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
 				<key>largetypetext</key>
 				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
 			<string>282CD8F9-1BEE-4B7D-A72C-94D7CBA13073</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2534,7 +2608,7 @@ IFS=':' read -ra OUT &lt;&lt;&lt; "$IN"
 USERNAME=${OUT[0]}
 
 # we now substitue hamid with user name so we can actually see our links on pinboard.in
-sed -i '' -e "s/u:hamid/u:$USERNAME/" info.plist
+sed -i '' -e "s/u:blissofbeing/u:$USERNAME/" info.plist
 
 
 # set the auth token in config.json
@@ -2603,6 +2677,8 @@ echo $ret</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -2697,6 +2773,8 @@ echo $ret</string>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2736,7 +2814,7 @@ echo $ret</string>
 			<key>uid</key>
 			<string>D5939049-C73A-4872-9625-87A9F9BE886C</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2796,6 +2874,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2851,7 +2931,7 @@ EOB
 			<key>uid</key>
 			<string>5D065041-109B-41B0-ADE0-62CA836178E5</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2958,6 +3038,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3012,7 +3094,7 @@ EOB</string>
 			<key>uid</key>
 			<string>BD868971-C272-43FC-B20B-1C5471C1EBC1</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3098,6 +3180,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3152,7 +3236,7 @@ EOB</string>
 			<key>uid</key>
 			<string>93A64ECE-BB64-492B-B845-7CB85B544D40</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3189,6 +3273,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3243,7 +3329,7 @@ EOB</string>
 			<key>uid</key>
 			<string>3CFEFF60-C0B3-44A0-8761-FB5AA2F96547</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3252,6 +3338,8 @@ EOB</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3306,7 +3394,7 @@ EOB</string>
 			<key>uid</key>
 			<string>7A213534-8342-46AB-A4EA-4CCF95685833</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3371,6 +3459,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3425,7 +3515,7 @@ EOB</string>
 			<key>uid</key>
 			<string>5F6E4E5A-1035-498B-A2CF-B7E3ACB85009</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3462,6 +3552,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -3516,7 +3608,7 @@ EOB</string>
 			<key>uid</key>
 			<string>78C8A61E-FD70-4CD9-BEC8-66A30106E128</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -3567,7 +3659,7 @@ Raashid.A</string>
 			<key>xpos</key>
 			<integer>60</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>315</integer>
 		</dict>
 		<key>03AF5169-B606-486F-B432-98CF6E2BB0F2</key>
 		<dict>
@@ -4273,7 +4365,7 @@ Raashid.A</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.14.11</string>
+	<string>v0.9.10</string>
 	<key>webaddress</key>
 	<string>https://github.com/spamwax/alfred-pinboard-rs</string>
 </dict>
